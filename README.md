@@ -1,53 +1,38 @@
-# 💼 Portfólio Pessoal — HTML5, Tailwind CSS & JavaScript
+# 🌐 Portfólio | Kauan Moura
 
-Este repositório contém o código-fonte do meu portfólio pessoal, desenvolvido com o objetivo de apresentar meus projetos, habilidades técnicas e minha evolução como desenvolvedor front-end. O projeto foi construído utilizando HTML5, Tailwind CSS e JavaScript, garantindo uma interface moderna, responsiva e com ótima performance.
+um Portfólio moderno e responsivo desenvolvida com **HTML** e **TailwindCSS**, com foco em **design minimalista**, **performance** e **animações suaves**.  
+O projeto representa meu estilo de desenvolvimento: **direto ao ponto, limpo e eficiente**.
 
-O layout foi pensado para ser simples, direto e visualmente impactante, priorizando a experiência do usuário em qualquer tipo de dispositivo, seja desktop, tablet ou smartphone.
+---
 
-# 🛠️ Tecnologias Utilizadas
+## 🚀 Tecnologias utilizadas
 
-HTML5 — Estrutura semântica e acessível
+- **HTML5** → Estrutura semântica e organizada  
+- **TailwindCSS v4** → Estilização rápida, moderna e responsiva  
+- **JavaScript Vanilla** → Sistema de animações com Intersection Observer  
 
-Tailwind CSS — Estilização moderna, responsiva e otimizada
+---
 
-JavaScript (Vanilla) — Interatividade, animações e lógica da aplicação
+## 💡 Sobre o projeto
 
-Git & GitHub — Versionamento e hospedagem do projeto
+Esse Portfólio foi criada para apresentar minhas habilidades em **front-end**.  
+O layout foi pensado para ser **simples, funcional e elegante**, com foco em **experiência do usuário** e **conversão**.
 
-# ✨ Funcionalidades
+Principais seções:
+- **Header:** Navegação fluida com efeito hover  
+- **Hero Section:** Introdução profissional com CTA de contato  
+- **Sobre mim:** Breve apresentação e filosofia de desenvolvimento  
+- **Habilidades:** Cards animados com foco nas principais áreas de domínio  
+- **Projetos:** Exemplo real de landing page moderna  
+- **Contato:** Chamada direta para conexão via GitHub  
 
-✅ Layout totalmente responsivo
+---
 
-✅ Seção Sobre Mim
+## 🎨 Destaques visuais
 
-✅ Exibição de Projetos
+- Tema **dark** com contraste limpo  
+- Animações suaves de entrada (`fade-in`, `slide-in`)  
+- Uso de **SVG icons** para visual limpo e técnico  
+- Responsividade garantida em todas as telas  
 
-✅ Botões e efeitos com animações suaves
-
-✅ Navegação simples e intuitiva
-
-✅ Design moderno com Tailwind
-
-✅ animações dinâmicas com JavaScript
-
-✅ Foco total em user experience (UX)
-
-# 🎯 Objetivo do Projeto
-
-O principal objetivo deste projeto é demonstrar minhas habilidades como desenvolvedor front-end, colocando em prática conceitos de:
-
-Responsividade
-
-Organização de layout
-
-Estilização moderna
-
-Manipulação de DOM com JavaScript
-
-Boas práticas de desenvolvimento web
-
-Além disso, este portfólio serve como uma vitrine profissional, onde apresento meus trabalhos e minha evolução constante na área de programação.
-
-# 📌 Status do Projeto
-
-🚧 Projeto em constante evolução, recebendo melhorias de layout, novas funcionalidades e otimizações de desempenho.
+acesse o projeto online em : https://portfolio-kauan.pages.dev/
