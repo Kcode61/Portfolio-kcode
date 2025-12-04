@@ -35,4 +35,4 @@ Principais seções:
 - Uso de **SVG icons** para visual limpo e técnico  
 - Responsividade garantida em todas as telas  
 
-acesse o projeto online em : https://portfolio-kauan.pages.dev/
+acesse o projeto online em : 
