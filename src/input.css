@@ -34,6 +34,35 @@
     transform: translateX(0);
   }
 }
+@keyframes scale-up {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  50% {
+    transform: scale(1.06);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    transform: translateY(0);
+  }
+}
+
+@keyframes card-scale-up {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+    transform: scale(0.7);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    transform: translateY(0);
+  }
+}
 
 @layer utilities {
   .animate-fade-in-up {
@@ -41,7 +70,11 @@
   }
 
   .button-fade-in-up {
-    animation: fade-in-up 1s ease-out both;
+    animation: scale-up 1s ease-out both;
+  }
+
+  .animate-card-up-scale {
+    animation: card-scale-up 0.8s ease-out both;
   }
 
   .animate-slide-in-left {
