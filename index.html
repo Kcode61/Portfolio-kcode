@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portifolio | Kauan Moura</title>
     <link rel="stylesheet" href="dist/output.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
   </head>
-  <body class="h-screen bg-dark overflow-x-hidden">
-    <div class="justify-between flex  px-2 py-6 border-b border-gray-600">
+  <body class="min-h-screen bg-dark overflow-x-hidden font-[Inter]  relative">
+   <div class="justify-between sticky top-0 z-50 flex bg-[#09090Be6] backdrop-blur-md px-2 py-6 border-b border-gray-600">
       <div class="p-2 px-3 flex items-center gap-4">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +43,7 @@
           >
           <a
             href="#projetos"
-            class="text-xl font-bold hover:text-white hover:scale-110 transition duration-300"
+            class="text-xl font-bold  hover:text-white hover:scale-110 transition duration-300"
             >Projetos</a
           >
         </nav>
@@ -51,18 +53,18 @@
     <section class="p-8 py-20 md:py-32 max-w-7xl mx-auto animate-fade-in-up">
       <div class="max-w-4xl">
         <p class="text-zinc-400 mb-4 text-2xl">Olá, eu sou</p>
-        <h1 class="text-white text-4xl md:text-6xl mb-8 leading-tight">
+        <h1 class="text-white font-[Poppins] font-bold tracking-tight  text-4xl md:text-5xl mb-8 leading-tight">
           Kauan Moura
           <br />
           <span class="text-zinc-400">Especializado em Landing Pages</span>
         </h1>
 
-        <p class="text-zinc-400 md:text-2xl text-xl font-mono mb-8">
+        <p class="text-zinc-400 md:text-2xl text-xl mb-8">
           Transformo ideias em landing pages funcionais e elegantes. Foco em
           código limpo, design minimalista e páginas que realmente convertem.
         </p>
         <button
-          class="button-fade-in-up bg-white p-4 text-xl font-bold rounded-lg cursor-pointer transition duration-300 hover:scale-105 border-2 border-transparent hover:border-white hover:bg-transparent hover:text-white"
+          class="button-fade-in-up font-[Poppins]  tracking-tight bg-white p-4 text-xl font-bold rounded-lg cursor-pointer transition duration-300 hover:scale-105 border-2 border-transparent hover:border-white hover:bg-transparent hover:text-white"
         >
           <a href="https://www.instagram.com/kauan_kyoxd/"
             >Entre em contato comigo</a
@@ -78,7 +80,7 @@
             data-animation="animate-slide-in-left"
             id="sobre"
           >
-            <h1 class="text-4xl md:text-5xl text-white font-mono mb-8">
+            <h1 class="text-4xl font-[Poppins] font-semibold tracking-tight md:text-5xl text-white mb-8">
               Sobre mim
             </h1>
             <div class="space-y-6 text-zinc-400 leading-relaxed text-lg">
@@ -106,7 +108,7 @@
           </div>
 
           <div data-animation="animate-slide-in-right">
-            <h1 class="text-4xl md:text-5xl text-white font-mono mb-8">
+            <h1 class="text-4xl md:text-5xl text-white font-[Poppins] font-semibold tracking-tight mb-8">
               Minhas habilidades
             </h1>
             <div class="space-y-6">
@@ -210,7 +212,7 @@
     <section class="p-8 py-20 md:py-32">
       <div class="max-w-7xl mx-auto px-6" id="projetos">
         <div class="opacity-0" data-animation="animate-slide-in-left">
-          <h2 class="text-white mb-6 text-4xl md:text-5xl font-mono">
+          <h2 class="text-white mb-6 text-4xl md:text-5xl font-[Poppins] font-semibold tracking-tight">
             Projetos
           </h2>
           <p class="text-zinc-400 max-w-3xl mb-16 text-xl">
@@ -221,7 +223,7 @@
         <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-6">
           <div
             class="rounded-xl border bg-gradient-to-tl from-zinc-800 via-zinc-900 to-zinc-950 border-zinc-800 flex-col gap-6 overflow-hidden opacity-0"
-            data-animation="animate-fade-in-up"
+            data-animation="animate-card-up-scale"
           >
             <div class="aspect-video relative overflow-hidden bg-zinc-80">
               <img
@@ -249,7 +251,7 @@
               </div>
               <a
                 target="_blank"
-                href="https://tailwind-landing-page-ce3.pages.dev/"
+                href="https://tailwind-landing-page-4fe.pages.dev"
                 class="font-bold text-black py-2 px-3 rounded-lg cursor-pointer bg-white transition duration-300 hover:scale-105 border-2 border-transparent hover:border-white hover:bg-transparent hover:text-white"
                 >Ver projeto</a
               >
@@ -258,7 +260,7 @@
 
             <div
             class="rounded-xl border bg-gradient-to-tr from-zinc-800 via-zinc-900 to-zinc-950 border-zinc-800 flex-col gap-6 overflow-hidden opacity-0"
-            data-animation="animate-fade-in-up"
+            data-animation="animate-card-up-scale"
           >
             <div class="aspect-video relative overflow-hidden bg-zinc-80">
               <img
@@ -301,7 +303,7 @@
         id="contato"
         data-animation="animate-slide-in-left"
       >
-        <h1 class="text-4xl md:text-5xl text-white font-mono mb-6 text-center">
+        <h1 class="text-4xl md:text-5xl text-white font-[Poppins] font-bold tracking-tight mb-6 text-center">
           Vamos Conversar?
         </h1>
         <p class="text-zinc-200 text-center max-w-2xl text-xl mx-auto mb-6">
@@ -337,6 +339,8 @@
         </div>
       </div>
     </section>
+
+    
     <footer class="border-t border-zinc-800 py-8">
       <div class="max-w-7xl mx-auto px-6 text-center text-zinc-400 text-lg">
         <p>© 2025 Portfolio. Feito com foco e simplicidade.</p>
@@ -363,4 +367,3 @@
     </script>
   </body>
 </html>
-
