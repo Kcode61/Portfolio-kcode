@@ -11,7 +11,7 @@
     />
   </head>
   <body class="min-h-screen overflow-x-hidden font-[Inter] relative bg-black">
-    <div
+    <header
       class="sticky top-0 z-50 bg-black backdrop-blur-md px-2 py-5 border-b border-gray-600"
     >
       <div class="max-w-7xl mx-auto justify-between items-center flex">
@@ -34,28 +34,56 @@
           </svg>
           <h1 class="text-white font-bold text-2xl">Kauan</h1>
         </div>
-        <div class="p-2 px-4">
-          <nav class="flex gap-4 text-gray-500">
-            <a
-              href="#sobre"
-              class="text-lg font-bold hover:text-white hover:scale-110 transition duration-300 scroll"
-              >Sobre</a
-            >
-            <a
-              href="#contato"
-              class="text-lg font-bold hover:text-white hover:scale-110 transition duration-300"
-              >Contato</a
-            >
-            <a
-              href="#projetos"
-              class="text-lg font-bold hover:text-white hover:scale-110 transition duration-300"
-              >Projetos</a
-            >
-          </nav>
-        </div>
-      </div>
-    </div>
 
+        <nav class="hidden md:flex gap-4 text-gray-500">
+          <a
+            href="#sobre"
+            class="text-lg font-bold hover:text-white hover:scale-110 transition duration-300"
+            >Sobre</a
+          >
+          <a
+            href="#contato"
+            class="text-lg font-bold hover:text-white hover:scale-110 transition duration-300"
+            >Contato</a
+          >
+          <a
+            href="#projetos"
+            class="text-lg font-bold hover:text-white hover:scale-110 transition duration-300"
+            >Projetos</a
+          >
+        </nav>
+        <button id="menu-btn" class="md:hidden text-white focus:outline-none">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-8 h-8"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </button>
+      </div>
+    </header>
+    <div
+      id="mobile-menu"
+      class="hidden fixed top-[80px] left-0 w-full bg-black border-t border-zinc-800 z-40"
+    >
+      <nav class="flex flex-col items-center gap-6 py-6 text-gray-400">
+        <a href="#sobre" class="text-lg font-bold hover:text-white">Sobre</a>
+        <a href="#contato" class="text-lg font-bold hover:text-white"
+          >Contato</a
+        >
+        <a href="#projetos" class="text-lg font-bold hover:text-white"
+          >Projetos</a
+        >
+      </nav>
+    </div>
     <section class="p-8 py-14 md:py-24 lg:py-32 animate-fade-in-up">
       <div class="max-w-4xl mx-auto">
         <p class="text-zinc-400 font-medium mb-4 text-2xl">Olá, eu sou</p>
@@ -555,6 +583,13 @@
       document
         .querySelectorAll("[data-animation]")
         .forEach((el) => observer.observe(el));
+
+      const menuBtn = document.getElementById("menu-btn");
+      const mobileMenu = document.getElementById("mobile-menu");
+
+      menuBtn.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
     </script>
   </body>
 </html>
