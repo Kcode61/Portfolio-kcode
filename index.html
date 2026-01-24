@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
@@ -378,7 +378,6 @@
                 src="https://images.unsplash.com/photo-1760008486593-a85315610136?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBsYW5kaW5nJTIwcGFnZXxlbnwxfHx8fDE3NjU1NjE5MDV8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
                 alt="Tailwind landing page"
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                data-fg-cgd212="1.76:1.4955:/components/projects.tsx:62:17:2682:212:e:img"
               />
               <div
                 class="absolute inset-0 group transition hover:cursor-pointer bg-black/20 hover:bg-black/40"
@@ -387,6 +386,7 @@
                   class="absolute top-6 group-hover:block right-6 hidden bg-white rounded-full"
                 >
                   <a
+                    target="_blank"
                     href="https://tailwind-landing-page-4fe.pages.dev/"
                     class="flex items-center justify-center p-2"
                   >
@@ -446,7 +446,6 @@
                 src="https://images.unsplash.com/photo-1764601842171-3d6fba7c3830?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwd2ViJTIwaW50ZXJmYWNlfGVufDF8fHx8MTc2NTU4MzAxN3ww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
                 alt="agendador web"
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                data-fg-cgd212="1.76:1.4955:/components/projects.tsx:62:17:2682:212:e:img"
               />
               <div
                 class="absolute inset-0 group transition hover:cursor-pointer bg-black/20 hover:bg-black/40"
@@ -455,6 +454,7 @@
                   class="absolute top-6 group-hover:block right-6 hidden bg-white rounded-full"
                 >
                   <a
+                    target="_blank"
                     href="https://kcodenav-agendador-web.pages.dev/"
                     class="flex items-center justify-center p-2"
                   >
@@ -506,6 +506,94 @@
                 class="px-3 py-1 text-[11px] font-medium rounded-full bg-zinc-900/70 text-zinc-300 border border-zinc-700"
               >
                 Javascript
+              </span>
+            </div>
+          </div>
+          <div
+            class="group rounded-2xl p-5 transition box-delay-200"
+            data-animation="animate-fade-in-up"
+          >
+            <div
+              class="relative aspect-[4/3] overflow-hidden rounded-xl mb-6 bg-zinc-900"
+            >
+              <img
+                src="img/E-commerce-page.png"
+                alt="e-commerce TechStore"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+              />
+              <div
+                class="absolute inset-0 group transition hover:cursor-pointer bg-black/20 hover:bg-black/40"
+              >
+                <div
+                  class="absolute top-6 group-hover:block right-6 hidden bg-white rounded-full"
+                >
+                  <a
+                    target="_blank"
+                    href="https://e-commerce-tech-store.pages.dev"
+                    class="flex items-center justify-center p-2"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-arrow-up-right-icon lucide-arrow-up-right"
+                    >
+                      <path d="M7 7h10v10" />
+                      <path d="M7 17 17 7" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <p class="text-white font-semibold text-base mb-3">
+                E-commerce: TechStore
+              </p>
+
+              <p class="text-sm text-zinc-600 leading-relaxed">
+                E-commerce de acessórios e produtos tecnológicos.
+              </p>
+            </div>
+
+            <div class="flex gap-2 flex-wrap">
+              <span
+                class="px-3 py-1 text-[11px] font-medium rounded-full bg-zinc-900/70 text-zinc-300 border border-zinc-700"
+              >
+                Html
+              </span>
+
+              <span
+                class="px-3 py-1 text-[11px] font-medium rounded-full bg-zinc-900/70 text-zinc-300 border border-zinc-700"
+              >
+                Tailwind
+              </span>
+
+              <span
+                class="px-3 py-1 text-[11px] font-medium rounded-full bg-zinc-900/70 text-zinc-300 border border-zinc-700"
+              >
+                React
+              </span>
+              <span
+                class="px-3 py-1 text-[11px] font-medium rounded-full bg-zinc-900/70 text-zinc-300 border border-zinc-700"
+              >
+                Typescript
+              </span>
+              <span
+                class="px-3 py-1 text-[11px] font-medium rounded-full bg-zinc-900/70 text-zinc-300 border border-zinc-700"
+              >
+                Zustand
+              </span>
+              <span
+                class="px-3 py-1 text-[11px] font-medium rounded-full bg-zinc-900/70 text-zinc-300 border border-zinc-700"
+              >
+                React-Router
               </span>
             </div>
           </div>
@@ -579,7 +667,7 @@
             }
           });
         },
-        { threshold: 0.1 }
+        { threshold: 0.1 },
       );
 
       document
@@ -596,23 +684,23 @@
           mobileMenu.classList.remove(
             "opacity-100",
             "translate-y-0",
-            "pointer-events-auto"
+            "pointer-events-auto",
           );
           mobileMenu.classList.add(
             "opacity-0",
             "-translate-y-4",
-            "pointer-events-none"
+            "pointer-events-none",
           );
         } else {
           mobileMenu.classList.remove(
             "opacity-0",
             "-translate-y-4",
-            "pointer-events-none"
+            "pointer-events-none",
           );
           mobileMenu.classList.add(
             "opacity-100",
             "translate-y-0",
-            "pointer-events-auto"
+            "pointer-events-auto",
           );
         }
       });
@@ -623,12 +711,12 @@
           mobileMenu.classList.remove(
             "opacity-100",
             "translate-y-0",
-            "pointer-events-auto"
+            "pointer-events-auto",
           );
           mobileMenu.classList.add(
             "opacity-0",
             "-translate-y-4",
-            "pointer-events-none"
+            "pointer-events-none",
           );
         });
       });
